@@ -1,0 +1,60 @@
+@font-face {
+font-family: "AlexBrush";  
+src: url("E:/University/Sissejuhatus erialasse/ilutuba/fonts/AlexBrush-Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+}
+ 
+@font-face {
+font-family: "Summer";
+src: url("E:/University/Sissejuhatus erialasse/ilutuba/fonts/Summer Weekend.otf") format("truetype");
+font-style: normal; 
+font-weight: normal; 
+}
+
+@font-face {
+font-family: "Picture";
+src: url("E:/University/Sissejuhatus erialasse/ilutuba/fonts/Picture.otf") format("truetype");
+font-style: normal; 
+font-weight: normal; 
+}
+
+
+.header {
+    display: flex;
+    color: #000000;
+    color: #000000;
+    font-size: 35px;
+    font-family: Summer, serif;
+    text-align: justify;
+}
+
+.menu-link {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#pealkiri {
+    color: #000000;
+    font-size: 50px;
+    font-family: AlexBrush, sans-serif;
+}
+#pealkiri3 {
+    color: #000000;
+    font-size: 50px;
+    font-family: Picture, sans-serif;
+}
+.tekst {
+    color: #000000;
+    font-size: 35px;
+    font-family: Summer, serif;
+    text-align: justify;
+}
+.raamiga-pilt {
+    border: 1px solid #000000;
+    box-shadow: 1px 1px 1px #888888;
+}
+
+body {
+    background-color: #D3D3D3;
+}
